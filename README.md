@@ -1,4 +1,4 @@
-Expense Tracker Python project
+ Expense Tracker Python project
 
 This project is a simple expense tracking application created using Python.
 The main idea is to help users record their daily expenses, view them later, and analyze spending habits
@@ -30,11 +30,11 @@ Download the project folder and then open a terminal or command prompt in that f
 Run the program using the command: python expensestrackerproject.py
 The file expenses.csv will be created automatically if it does not already exist.
 
-*Key Learnings
+Key Learnings:
 
 While working on this project
 I learned how to use file handling with CSV files,how to break a problem into smaller functions,how to store and process user data and how to create a simple menu-based application.
 It helped me understand programming,data processing and basic analysis like monthly totals and averages.
 
-Just tell me!
+
 
