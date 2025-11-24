@@ -7,7 +7,6 @@ All the data is stored in a CSV file so the expenses are saved even after closin
 The program runs in the terminal and provides easy menu where users can add expenses,view them,delete any entry,search by category,sort by amount,generate a monthly report and calculate the daily average.
 
 Libraries Used are:
-
 I have used only built-in Python libraries 
 The libraries used are:
 
