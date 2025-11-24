@@ -1,38 +1,40 @@
-Expense Tracker Python Project
+Expense Tracker Python project
 
-This project is a simple console-based Expense Tracker built using Python. It helps a user record daily expenses, view them, delete entries, search by category, sort them by amount, and also see monthly totals and daily average spending. All the data is saved in a CSV file so the information stays safe even after the program is closed.
+This project is a simple expense tracking application created using Python.
+The main idea is to help users record their daily expenses, view them later, and analyze spending habits
+All the data is stored in a CSV file so the expenses are saved even after closing the program
 
-Purpose of the Project
-The main idea behind this project is to make it easier to keep track of day-to-day spending. Many people struggle to remember where their money goes, so this program gives a simple and organized way to store expense details like date, amount, category, and notes.
+The program runs in the terminal and provides easy menu where users can add expenses,view them,delete any entry,search by category,sort by amount,generate a monthly report and calculate the daily average.
 
-How the Program Works
-When the program starts, it checks whether the expenses file exists. If not, it creates one automatically.
-The user gets a menu where they can choose different options like adding an expense or viewing all expenses.
-Every operation reads or writes data to the CSV file so nothing is lost.
+Libraries Used are:
 
-Features Included
-Adding a new expense entry
-Viewing all saved expenses
-Deleting any entry by choosing its number
-Searching records based on category
-Sorting expenses by amount
-Getting a monthly report for a chosen month
-Finding the daily average spending
+I have used only built-in Python libraries 
+The libraries used are:
 
-Libraries and Concepts Used
-The csv library is used to read and write the expenses into the CSV file.
-The os library is used to check whether the data file exists.
-The datetime library is used for handling dates.
-Basic Python concepts like functions, loops, conditional statements, lists, and modular programming have been applied.
+• csv – to handle reading and writing of the expenses file
+• os – to check if the file exists and manage file operations
 
-Why This Project Is Useful
-It gives a simple way to organize daily spending without needing any advanced tools.
-It also teaches how to use file handling in Python and how to break a program into small, manageable functions.
+Approach of the code:
+I divided the project into smaller parts to make it easier to work on.
+First I created a function that checks whether the expenses file existsor not
+Then I made separate functions for adding expenses , showing them , deleting entries, searching , sorting , and generating reports
+Each feature has its own function which makes the code cleaner and easier to understand.
 
-How to Run
-Make sure Python is installed on your system.
-Run the Python script named expenses.py.
-The menu will appear and you can choose any option by entering the number.
+I followed a simple top-down design approach where the main menu calls each function based on the users choice
+Every time a new expense is added or deleted, the program writes the updated data back into the CSV file
 
-Future Enhancements
-The program can be improved later by adding a graphical interface, exporting reports in PDF or Excel, and showing charts for better analysis.
+Instructions are:
+
+To run the project, Python must be installed.
+Download the project folder and then open a terminal or command prompt in that folder.
+Run the program using the command: python expensestrackerproject.py
+The file expenses.csv will be created automatically if it does not already exist.
+
+*Key Learnings
+
+While working on this project
+I learned how to use file handling with CSV files,how to break a problem into smaller functions,how to store and process user data and how to create a simple menu-based application.
+It helped me understand programming,data processing and basic analysis like monthly totals and averages.
+
+Just tell me!
+
