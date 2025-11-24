@@ -1,4 +1,4 @@
- Expense Tracker Python project
+**Expense Tracker Python project**
 
 This project is a simple expense tracking application created using Python.
 The main idea is to help users record their daily expenses, view them later, and analyze spending habits
